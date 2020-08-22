@@ -95,7 +95,7 @@ function generatePassword() {
         }
 
         // Prompts passwordString to convert from a string into an array called passwordArray
-        var passwordArray = passwordStr.split("");
+        var passwordArray = passwordString.split("");
 
         //Runs loop that will swap the index of passwordArray with the index of guaranteedCharacter so that any 'True Confirms' for a character will be included in the final password
         for (var i = 0; i < guaranteedCharacters.length; i++) {
